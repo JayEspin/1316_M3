@@ -35,6 +35,22 @@ header h1{
     font-size: 20px;
     padding-right: 15px;    
 }
+.flex-container {
+    display: flex;
+    background-color:#5AA8D6;
+   
+}
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+.fleximage {
+    
+    height: 350px;
+  }
 body {
     font-family: 'Tangerine', serif;
     font-size: 12px;
@@ -44,10 +60,20 @@ h1{
     font-size: 50px;
     text-align: left;
 }
+.idenxhearder h1{
+    background-color:#5AA8D6;
+    font-size: 50px;
+    text-align: center;
+    height: 100px;
+    margin: 0%;
+
+}
 #showcase{
     color: white;
     background-color:#5AA8D6;
     font-size: 18px;
+    padding: 30px;
+    height: auto;
     
 }
 #showcase h1{
@@ -66,17 +92,6 @@ img{
     width:320px;
     height:340px; 
 }
-#certifcation_photo{
-    width:120px;
-    height:120px;
-    
-
-}
-.img-comptia-certification-training{
-    float: left;
-    width:50px;
-    height:50px
-}
 video{
     width:320px;
     height:320px; 
@@ -88,4 +103,14 @@ footer{
     background-color: white;
     bottom: 0;
     left: 0;
+}
+.rightImage{
+    float: right;
+    width:300px;         
+    height:150px;
+    
+}
+.indexImage{
+    width:300px;
+    height:300px;
 }
